@@ -24,6 +24,8 @@ namespace PI_2025_I_P1_TAREA1._1
             numero2 = double.Parse(Console.ReadLine());
             suma = sumar(numero1, numero2);
             Console.WriteLine($"La suma de {numero1} y {numero2} = {suma}");
+            Console.WriteLine($"Hasta Luego");
+
             Console.ReadLine();
 
         }
